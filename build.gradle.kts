@@ -24,7 +24,7 @@ dependencies {
 
 	// e: src\test\kotlin\com\ianbrandt\test\TypeInferenceTest.kt:
 	// Type mismatch: inferred type is String but Nothing! was expected
-	testImplementation("org.assertj:assertj-core:3.21.0")
+	testImplementation("org.assertj:assertj-core:3.22.0")
 
 	testImplementation("org.junit.jupiter:junit-jupiter-api")
 
