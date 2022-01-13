@@ -4,7 +4,7 @@ import org.gradle.api.tasks.wrapper.Wrapper.DistributionType.ALL
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-	kotlin("jvm") version "1.5.31"
+	kotlin("jvm") version "1.6.10"
 }
 
 group = "com.ianbrandt"
@@ -39,8 +39,8 @@ java {
 tasks {
 	withType<KotlinCompile> {
 		with(kotlinOptions) {
-			languageVersion = "1.5"
-			apiVersion = "1.5"
+			languageVersion = "1.6"
+			apiVersion = "1.6"
 			jvmTarget = VERSION_11.toString()
 		}
 	}
